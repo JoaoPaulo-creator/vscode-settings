@@ -1,0 +1,37 @@
+{
+    "editor.fontLigatures": true,
+    "editor.mouseWheelZoom": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.colorTheme": "Min Dark",
+    "explorer.confirmDelete": false,    
+    "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",    
+    "java.project.encoding": "warning",
+    "cmake.configureOnOpen": true,
+    "workbench.startupEditor": "none",
+    "explorer.confirmDragAndDrop": false,
+    "tabnine.experimentalAutoImports": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "terminal.integrated.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.iconTheme": "material-icon-theme",
+    "settingsSync.ignoredSettings": [
+    
+    ],
+    "[prisma]": {
+        "editor.formatOnSave": true
+    },
+    "editor.formatOnSave": true,
+    "eslint.codeActionsOnSave.rules": null,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+        "javascript",
+        "typescript"
+    ],
+    "window.zoomLevel": 1
+}
