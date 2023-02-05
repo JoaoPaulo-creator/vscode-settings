@@ -24,7 +24,8 @@
   "eslint.codeActionsOnSave.rules": null,
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
   },
   "eslint.validate": [
     "javascript",
@@ -39,5 +40,16 @@
   "editor.minimap.enabled": true,
   "rapidapi.terminalLink.enabled": true,
   "workbench.colorTheme": "Nord Deep",
-  "workbench.productIconTheme": "macos-modern"
+  "workbench.productIconTheme": "macos-modern",
+  "editor.accessibilitySupport": "off",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "svelte.enable-ts-plugin": true,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
 }
