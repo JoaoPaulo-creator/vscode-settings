@@ -1,5 +1,6 @@
 {
   "editor.fontLigatures": true,
+  "editor.tabSize": 2,
   "editor.mouseWheelZoom": true,
   "workbench.editor.enablePreview": false,
   "explorer.confirmDelete": false,
@@ -27,10 +28,7 @@
     "source.fixAll.eslint": true,
     "source.organizeImports": true
   },
-  "eslint.validate": [
-    "javascript",
-    "typescript"
-  ],
+  "eslint.validate": ["javascript", "typescript"],
   "redhat.telemetry.enabled": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "window.zoomLevel": 1,
@@ -52,4 +50,8 @@
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.editorAssociations": {
+    "*.db": "default"
+  }
 }
