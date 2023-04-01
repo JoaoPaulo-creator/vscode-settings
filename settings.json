@@ -31,7 +31,6 @@
   "eslint.validate": ["javascript", "typescript"],
   "redhat.telemetry.enabled": false,
   "diffEditor.ignoreTrimWhitespace": false,
-  "window.zoomLevel": 1,
   "[javascript]": {
     "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
@@ -53,5 +52,11 @@
   "git.openRepositoryInParentFolders": "never",
   "workbench.editorAssociations": {
     "*.db": "default"
-  }
+  },
+  "editor.largeFileOptimizations": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1,
+  "workbench.sideBar.location": "right"
 }
