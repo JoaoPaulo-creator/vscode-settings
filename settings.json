@@ -12,6 +12,8 @@
   "tabnine.experimentalAutoImports": true,
   "vsicons.dontShowNewVersionMessage": true,
   "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontWeight": "bold",
   "workbench.list.smoothScrolling": true,
   "editor.smoothScrolling": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -37,7 +39,7 @@
   },
   "editor.minimap.enabled": true,
   "rapidapi.terminalLink.enabled": true,
-  "workbench.colorTheme": "Nord Deep",
+  "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.productIconTheme": "macos-modern",
   "editor.accessibilitySupport": "off",
   "[typescript]": {
@@ -58,8 +60,12 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": 1,
-  "workbench.sideBar.location": "right",
   "git.autofetch": true,
-  "git.enableSmartCommit": true
+  "git.enableSmartCommit": true,
+  "aws.telemetry": false,
+  "window.zoomLevel": 1,
+  "terminal.integrated.env.windows": {},
+  "files.associations": {
+    "*.js": "javascript"
+  }
 }
