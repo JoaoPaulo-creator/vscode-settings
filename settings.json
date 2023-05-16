@@ -29,7 +29,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
     "source.fixAll.eslint": true,
-    "source.organizeImports": true
+    "source.organizeImports": false
   },
   "eslint.validate": ["javascript", "typescript"],
   "redhat.telemetry.enabled": false,
@@ -67,5 +67,11 @@
   "terminal.integrated.env.windows": {},
   "files.associations": {
     "*.js": "javascript"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
   }
 }
