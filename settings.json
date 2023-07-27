@@ -73,5 +73,20 @@
   },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  }
+  },
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "aws.telemetry": false,
+  "window.zoomLevel": 1,
+  "terminal.integrated.env.windows": {},
+  "files.associations": {
+    "*.js": "javascript"
+  },
+  "go.inlayHints.parameterNames": true,
+  "go.inlayHints.assignVariableTypes": true,
+  "go.inlayHints.compositeLiteralFields": true,
+  "go.inlayHints.compositeLiteralTypes": true,
+  "go.inlayHints.constantValues": true,
+  "go.inlayHints.functionTypeParameters": true,
+  "go.inlayHints.rangeVariableTypes": true
 }
