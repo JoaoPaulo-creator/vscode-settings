@@ -1,77 +1,90 @@
 {
-  "editor.fontLigatures": true,
-  "editor.tabSize": 2,
-  "editor.mouseWheelZoom": true,
-  "workbench.editor.enablePreview": false,
-  "explorer.confirmDelete": false,
-  "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
-  "java.project.encoding": "warning",
-  "cmake.configureOnOpen": true,
-  "workbench.startupEditor": "none",
-  "explorer.confirmDragAndDrop": false,
-  "tabnine.experimentalAutoImports": true,
-  "vsicons.dontShowNewVersionMessage": true,
-  "terminal.integrated.smoothScrolling": true,
-  "terminal.integrated.fontSize": 15,
-  "terminal.integrated.fontWeight": "bold",
-  "workbench.list.smoothScrolling": true,
-  "editor.smoothScrolling": true,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "material-icon-theme.activeIconPack": "nest",
-  "settingsSync.ignoredSettings": [],
+  "[javascript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[prisma]": {
     "editor.formatOnSave": true
   },
-  "editor.formatOnSave": true,
-  "eslint.codeActionsOnSave.rules": null,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "aws.telemetry": false,
+  "cmake.configureOnOpen": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.accessibilitySupport": "off",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
     "source.fixAll.eslint": true,
     "source.organizeImports": false
   },
-  "eslint.validate": ["javascript", "typescript"],
-  "redhat.telemetry.enabled": false,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "[javascript]": {
-    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
-  },
-  "editor.minimap.enabled": true,
-  "rapidapi.terminalLink.enabled": true,
-  "workbench.colorTheme": "Catppuccin Macchiato",
-  "workbench.productIconTheme": "macos-modern",
-  "editor.accessibilitySupport": "off",
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "svelte.enable-ts-plugin": true,
-  "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode"
-  },
-  "git.openRepositoryInParentFolders": "never",
-  "workbench.editorAssociations": {
-    "*.db": "default"
-  },
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
   "editor.largeFileOptimizations": false,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "git.autofetch": true,
-  "git.enableSmartCommit": true,
-  "aws.telemetry": false,
-  "window.zoomLevel": 1,
-  "terminal.integrated.env.windows": {},
+  "editor.minimap.enabled": true,
+  "editor.mouseWheelZoom": true,
+  "editor.smoothScrolling": true,
+  "editor.tabSize": 2,
+  "eslint.codeActionsOnSave.rules": null,
+  "eslint.validate": ["javascript", "typescript"],
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
   "files.associations": {
     "*.js": "javascript"
   },
-  "go.inlayHints.parameterNames": true,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "never",
   "go.inlayHints.assignVariableTypes": true,
   "go.inlayHints.compositeLiteralFields": true,
   "go.inlayHints.compositeLiteralTypes": true,
   "go.inlayHints.constantValues": true,
   "go.inlayHints.functionTypeParameters": true,
-  "go.inlayHints.rangeVariableTypes": true
+  "go.inlayHints.parameterNames": true,
+  "go.inlayHints.rangeVariableTypes": true,
+  "java.project.encoding": "warning",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "material-icon-theme.activeIconPack": "nest",
+  "rapidapi.terminalLink.enabled": true,
+  "redhat.telemetry.enabled": false,
+  "settingsSync.ignoredSettings": [],
+  "svelte.enable-ts-plugin": true,
+  "tabnine.experimentalAutoImports": true,
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontWeight": "bold",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.smoothScrolling": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vsicons.dontShowNewVersionMessage": true,
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "workbench.editor.enablePreview": false,
+  "workbench.editorAssociations": {
+    "*.db": "default"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.list.smoothScrolling": true,
+  "workbench.productIconTheme": "macos-modern",
+  "workbench.startupEditor": "none",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
+  "haskell.manageHLS": "GHCup",
+  "files.watcherExclude": {
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/.ammonite": true
+  }
 }
